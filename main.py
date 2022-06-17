@@ -23,5 +23,4 @@ while True:
                                 if message.sender_id == hater_id:
                                     client.delete_messages(entity=message.peer_id.chat_id, message_ids=message.id)
             except Exception as e:
-                print(e)
                 pass
